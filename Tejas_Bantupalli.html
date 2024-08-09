@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <style>
+      p {
+          font-family: Arial, sans-serif;
+      }
+      li {
+          font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/tej.as3121?utm_source=qr"
+" target="_blank">
+             <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/tejas-bantupalli-2412861aa/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">HOME</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <h1>Tejas Bantupalli </h2>
+            <h2>Welcome to my website!</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              Hey there, welcome to my website!
+              My name is Tejas, and I am a second year student studying Mathematics and Computer Science at Imperial
+College London. I am passionate about securing a role that leverages my skills and interests in quantitative analysis or
+technology.</p>
+<p class="w3-margin-top-2"> With a strong foundation in computer science and a keen interest in data-driven decision-making, my
+background in designing and optimizing algorithms equips me with the analytical and technical expertise needed to excel
+in these fields. I am eager to contribute to innovative projects and solve complex problems in a dynamic and challenging
+environment.
+            </p>
+
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">EXPERIENCE</h3>
+              <div class="">
+                <h4>Software Engineering Intern at We-XL</h4>
+                <p>July 2024 - Present</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>WeXL is an EdTech startup that focuses on providing innovative solutions to help students be able to grasp topics better.
+During my internship at WeXL, I had the opportunity to work on a variety of impactful projects. I developed REST APIs for
+their web application, enhanced features with generative AI, and managed data with PostgreSQL. Additionally, I gained
+hands-on experience with AWS and Kubernetes, contributing to the deployment and scaling of applications. This role
+allowed me to deepen my technical expertise and collaborate with a talented team to drive meaningful advancements in
+education technology.</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Member of Beta Sigma Club</h4>
+                <p>January 2024 - Present </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Member of the Beta Sigma Club, a Quantitative Finance club with a large presence across Europe and ties to multiple
+major quantitative finance firms. Through this club, I also attended an Optiver Trading Training program, where I got to
+learn more about Market-Making and Options-Trading through a lecture given by Robbert Pullen, a senior trader at
+Optiver.</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Spring Intern at Rapidclaims.ai</h4>
+                <p>April 2024 - April 2024 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I spent a week to gain expertise on how to implement LLMs efficiently in order to help extract information from and
+parse charts that can be used by Healthcare Insurance companies to verify insurance claims.
+</li>
+                </ul>
+              </div>
+                            <div class="">
+                <h4>Summer Intern at Juppiter AI Labs</h4>
+                <p>May 2021 - June 2021 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Using Optical Character recognition text, I had developed a program which was able to extract text from car number
+plates within an image. My main goal was to help increase the effectiveness of traffic invigilation. Specifically, I wrote
+this program using OpenCV and tesseract libraries in python to identify anybody driving on the wrong side of the road.</li>
+                </ul>
+              </div>
+              </div>
+            
+
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">PROJECTS/HACKATHONS</h3>
+              <div class="">
+                <h4>Redis database</h4>
+                <p>July 2024 - Present</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Description: Developed a basic Redis-like key-value store server and client application in C++. The server supports
+fundamental operations (set, get, del, keys) and manages key-value pairs using a custom hashtable with dynamic
+resizing.</li>
+<li>Key Responsibilities:</li><li>
+<ul class="w3-ul" style="font-weight: 400;">
+                    <li>Designed and implemented a multi-threaded server to handle multiple client connections using polling and POSIX
+signal handling.</li>
+<li>Developed a client application capable of sending commands to the server and receiving responses, demonstrating
+client-server communication and socket programming skills.</li>
+<li>Implemented a custom hashtable to manage key-value pairs efficiently, including functionality for dynamic resizing
+to handle changes in data volume.</li>
+<li>Ensured robust server operation through graceful shutdown handling for termination signals and thorough error
+handling for network operations.</li>
+</ul></li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>ICHACK 2024 (Marshall Wace Education Challenge)</h4>
+                <p>February 2024 - February 2024 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>This was a Highly Commended Project
+Me and my team participated in Europe’s biggest Hackathon, where we built a website that would take in a question and
+an essay and generate 5 video interview questions from the essay that it takes in using an LSTM (this would be useful to
+detect cheating and plagiarism). Teachers can then login and check submissions. Moreover, using OpenCV, we were
+able to take the projections of eigenvectors of the eyes towards the screen, and check if they were (suspiciously) looking
+in a different direction (gaze tracking). Such anomalies, if detected, would then be flagged. My role was primarily
+focused on implementing the gaze-tracking part.</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Haskell Poker Game</h4>
+                <p>January 2024 - January 2024</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Developed a terminal-based card game using Haskell, incorporating probability calculations for various poker hands. The
+game allows players to draw cards, evaluate hands, and place bets against a computer opponent. Key features include:<li>
+<ul class="w3-ul" style="font-weight: 400;">
+                    <li>Deck Generation: Created a deck of cards with four suits and ranks from 2 to Ace.</li>
+<li>Card Drawing and Hand Evaluation: Implemented functionality to draw random cards, evaluate hands, and calculate
+probabilities for different poker hands.</li>
+<li>Betting System: Designed a betting system with options to place bets, fold, and manage multiple rounds.</li>
+<li>Game Logic: Developed core game mechanics including hand evaluation, probability calculations, and game flow
+control.</li>
+<li>Utilized Haskell for its strong type system and functional programming capabilities, demonstrating proficiency in
+both algorithm design and code optimization.</li>
+</ul></li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>ARMv8 Emulator, Assembler, and JSON extension </h4>
+                <p>May 2024 - June 2024</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>This was a mandatory First year Imperial project me and my team took part in, written entirely in C. I was in charge of
+building the Assembler. It has the following components to it:
+</li><li>
+<ul class="w3-ul" style="font-weight: 400;">
+                    <li>Emulator: Managed binary file reading and memory representation with 8-bit unsigned integers. Implemented
+instruction decoding using enums and user-defined structures, and executed tasks on registers and memory.
+Reused internal instruction representation and some file handling functions for assembler development</li>
+<li>Assembler: Built utilities and an instruction parser that extracts opcode mnemonics and maps them to functions
+using a function pointer table. Implemented a one-pass parsing approach with a symbol table for forward and
+backward references, and assembled instructions into a binary file in little-endian format.</li>
+<li>Raspberry Pi Application: Created a continuous LED blinking application using two ”latching” loops within a ”while
+true” loop to manage delays and ensure continuous operation.</li>
+<li>JSON Processor: Developed a JSON processor that parses JSON files and outputs binary files. Implemented a
+parser to handle commas and colons correctly, even within quotation marks.</li>
+</ul></li>
+                </ul>
+              </div>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">Test Scores/ Honors</h3>
+              <!--SOFT SKILLS-->
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>STEP paper 2 Score: 70 (grade 1)</li>
+                <li>JEE ADVANCED All India Rank 2076</li>
+                <li> I scored a 5 in the following Advanced Placement exams: Calculus BC Statistics Physics C Mechanics Physics C Electricity and
+Magnetism Chemistry. I have also earned an AP Scholar with Distinction Award.</li>
+              <li>JEE MAIN All India Rank 1606 out of more than 1.1 Million individuals. Scored a percentile of 99.87 overall.</li>
+              <li>Cambridge TMUA assessment exam Score: 8.1</li>
+
+              
+              
+              </ul>
+      
+          </div>    
+
+          </div>
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Tejas Bantupalli</p>
+              <p>Phone number: +44 7448662529</p>
+              <p>E-mail: tb923@ic.ac.uk</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
